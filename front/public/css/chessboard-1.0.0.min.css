@@ -1,2 +1,104 @@
-/*! chessboard.js v1.0.0 | (c) 2019 Chris Oakman | MIT License chessboardjs.com/license */
-.clearfix-7da63{clear:both}.board-b72b1{border:2px solid #404040;box-sizing:content-box}.square-55d63{float:left;position:relative;-webkit-touch-callout:none;-webkit-user-select:none;-khtml-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}.white-1e1d7{background-color:#f0d9b5;color:#b58863}.black-3c85d{background-color:#b58863;color:#f0d9b5}.highlight1-32417,.highlight2-9c5d2{box-shadow:inset 0 0 3px 3px #ff0}.notation-322f9{cursor:default;font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;font-size:14px;position:absolute}.alpha-d2270{bottom:1px;right:3px}.numeric-fc462{top:2px;left:2px}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>5x5 Chessboard</title>
+    <style>
+        /*! chessboard.js v1.0.0 | (c) 2019 Chris Oakman | MIT License chessboardjs.com/license */
+        .clearfix-7da63 {
+            clear: both;
+        }
+
+        .board-b72b1 {
+            border: 2px solid #404040;
+            box-sizing: content-box;
+            width: 250px; /* Adjust size for 5x5 board */
+            height: 250px; /* Adjust size for 5x5 board */
+        }
+
+        .square-55d63 {
+            float: left;
+            position: relative;
+            width: 50px; /* Width of each square */
+            height: 50px; /* Height of each square */
+            -webkit-touch-callout: none;
+            -webkit-user-select: none;
+            -khtml-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+        }
+
+        .white-1e1d7 {
+            background-color: #f0d9b5;
+            color: #b58863;
+        }
+
+        .black-3c85d {
+            background-color: #b58863;
+            color: #f0d9b5;
+        }
+
+        .highlight1-32417,
+        .highlight2-9c5d2 {
+            box-shadow: inset 0 0 3px 3px #ff0;
+        }
+
+        .notation-322f9 {
+            cursor: default;
+            font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+            font-size: 14px;
+            position: absolute;
+        }
+
+        .alpha-d2270 {
+            bottom: 1px;
+            right: 3px;
+        }
+
+        .numeric-fc462 {
+            top: 2px;
+            left: 2px;
+        }
+    </style>
+</head>
+<body>
+    <div class="board-b72b1">
+        <!-- Row 1 -->
+        <div class="square-55d63 white-1e1d7"></div>
+        <div class="square-55d63 black-3c85d"></div>
+        <div class="square-55d63 white-1e1d7"></div>
+        <div class="square-55d63 black-3c85d"></div>
+        <div class="square-55d63 white-1e1d7"></div>
+        
+        <!-- Row 2 -->
+        <div class="square-55d63 black-3c85d"></div>
+        <div class="square-55d63 white-1e1d7"></div>
+        <div class="square-55d63 black-3c85d"></div>
+        <div class="square-55d63 white-1e1d7"></div>
+        <div class="square-55d63 black-3c85d"></div>
+        
+        <!-- Row 3 -->
+        <div class="square-55d63 white-1e1d7"></div>
+        <div class="square-55d63 black-3c85d"></div>
+        <div class="square-55d63 white-1e1d7"></div>
+        <div class="square-55d63 black-3c85d"></div>
+        <div class="square-55d63 white-1e1d7"></div>
+        
+        <!-- Row 4 -->
+        <div class="square-55d63 black-3c85d"></div>
+        <div class="square-55d63 white-1e1d7"></div>
+        <div class="square-55d63 black-3c85d"></div>
+        <div class="square-55d63 white-1e1d7"></div>
+        <div class="square-55d63 black-3c85d"></div>
+        
+        <!-- Row 5 -->
+        <div class="square-55d63 white-1e1d7"></div>
+        <div class="square-55d63 black-3c85d"></div>
+        <div class="square-55d63 white-1e1d7"></div>
+        <div class="square-55d63 black-3c85d"></div>
+        <div class="square-55d63 white-1e1d7"></div>
+    </div>
+</body>
+</html>
